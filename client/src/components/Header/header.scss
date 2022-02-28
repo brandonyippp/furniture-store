@@ -1,0 +1,40 @@
+@import "../../constants/styles/global.scss";
+
+#header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  white-space: nowrap;
+  border-bottom: 1px solid grey;
+}
+
+.header-inner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 20vw;
+  white-space: nowrap;
+}
+
+.header-dropdown {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-item {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: $league-gothic, "Times New Roman", Helvetica, Arial;
+  font-size: 20px;
+}
+
+.down-arrow {
+  display: flex;
+  margin-top: -3px;
+  margin-left: -3px;
+}

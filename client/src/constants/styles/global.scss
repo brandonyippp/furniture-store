@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
+
+$league-gothic: "Leauge Gothic", sans-serif;
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  height: 200vh;
+}
+
+#top-banner-container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+}

@@ -1,0 +1,37 @@
+@import "../../constants/styles/global.scss";
+
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  min-width: 500px;
+  border-bottom: 1.5px solid grey;
+}
+
+.nav-bar-inner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+.nav-bar-item {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: $league-gothic, "Times New Roman", Helvetica, Arial;
+  font-size: 20px;
+}
+
+.nav-bar-item-lhs {
+  @extend .nav-bar-item;
+  border-right: 1px solid grey;
+}
+
+.nav-bar-item-rhs {
+  @extend .nav-bar-item;
+  border-left: 1px solid grey;
+}
